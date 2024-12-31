@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #2563eb;
+  --background-color: #f8fafc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--background-color);
+  color: #1f2937;
+}
+
+/* Clerk auth styling */
+.cl-component,
+.cl-main,
+.cl-sign-in-form {
+  margin: 0 auto !important;
+  max-width: 450px !important;
+  width: 100% !important;
+}
+
+.cl-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: calc(100vh - 64px) !important;
+  padding: 2rem 1rem !important;
+}
+
+.cl-card {
+  margin: 0 auto !important;
+  border-radius: 0.5rem !important;
+  background-color: white !important;
+}
